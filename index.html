@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Agente Retell AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #f44336;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+    </style>
+
+    <!-- Configuración del agente Retell AI -->
+    <script>
+        window.retellWebClient = {
+            publicKey: "public_key_3c71bbc6a943e13a90d46",
+            agentId: "agent_481ac3656ebeacaf1319d82551",
+            agentVersion: "v1",
+            theme: "light"
+        };
+    </script>
+
+    <!-- Cargar el script del widget -->
+    <script src="https://cdn.retellai.com/widget/v1/bundle.js" async></script>
+</head>
+<body>
+    <h1>¡Hola! Soy un sitio de prueba</h1>
+    <p>Tu agente de Retell AI debería aparecer en la esquina inferior derecha.</p>
+</body>
+</html>
